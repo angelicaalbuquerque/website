@@ -1,44 +1,74 @@
-# Gatsby Serif Theme
+# ✨ clube-brasil-seguros ✨
 
-Serif is a beautiful small business theme for Gatsby. It contains content types for the archetypical small business website. The theme is fully responsive, blazing fast and artfully illustrated.
+<img src="https://themes.stackbit.com/images/azimuth-demo-1024x768.png" width="600">
 
-[Live Demo](https://gatsby-serif.netlify.com/) | 
-[Zerostatic Themes](https://www.zerostatic.io/)
+This is a [Gatsby](https://gatsbyjs.com) site using Git as a [CMS](https://en.wikipedia.org/wiki/Content_management_system). It was created with [Stackbit](https://www.stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) in under a minute.
 
-![Gatsby Serif Theme screenshot](https://www.zerostatic.io/theme/gatsby-serif/gatsby-serif-screenshot.png)
+You can [create a site](https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-azimuth&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes) just like this one, or explore some variations. How about a different:
 
-## Theme features
+<details>
+        <summary>🎨 &nbsp;<strong>Look</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-vanilla&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Stackbit Vanilla theme</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-fjord&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">A minimal blogging theme</a></li>
+                <li><a href="https://app.stackbit.com/create?theme=https://github.com/stackbit/stackbit-theme-event&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Stackbit event theme</a></li>
+                </ul>
+</details>
 
-- Multi-page theme (not just a blog) that uses Markdown for multiple content-types/templates. It uses `gatsby-transformer-remark` and has several examples of querying and filtering `allMarkdownRemark`
-- Includes a graphql query in `gatsby-node.js` that creates pages and templates by content type based on the folder `src/pages/services`, `src/pages/team`,
-- Services (Markdown)
-- Team (Markdown)
-- Testimonials (Markdown)
-- Features (Data)
-- SCSS using `gatsby-plugin-sass`
-- Responsive design
-- Bootstrap 4 grid and media queries only
-- Responsive menu
-- Robust example content included
-- Royalty free illustrations included
-- SEO Titles & Meta using `gatsby-plugin-react-helmet`
-- ESLint (google config)
-- Prettier code styling
+<details>
+        <summary>✏️ &nbsp;<strong>CMS</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?cms=contentful&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Contentful</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=datocms&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Dato CMS</a></li>
+                <li><a href="https://app.stackbit.com/create?cms=sanity&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Sanity</a></li>
+                </ul>
+</details>
 
-## Deployment
+<details>
+        <summary>⚙️ &nbsp;<strong>Static site generator</strong></summary>
+        <ul>
+                <li><a href="https://app.stackbit.com/create?ssg=nextjs&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Next.js</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=hugo&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Hugo</a></li>
+                <li><a href="https://app.stackbit.com/create?ssg=jekyll&utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes">Jekyll</a></li>
+                </ul>
+</details>
 
-Gatsby and Node SCSS requires node v10 or higher
+## Develop Locally
 
-```
-npm install
-```
+1. Install [Node.js and npm](https://nodejs.org/en/)
 
-```
-npm run start
-```
+1. Install npm dependencies:
 
-OR if you have Gatsby installed globally you can run:
+        npm install
 
-```
-gatsby develop
-```
+
+
+1. Start the Gatsby local development server:
+
+        npm run develop
+
+1. Open [http://localhost:8000/](http://localhost:8000/) in the browser
+
+1. 🎉
+
+## Editing Content
+
+To start editing your site, you can edit the included Markdown files.
+
+Alternatively, you can use the free on-page editing experience provided by the [Stackbit Studio](https://stackbit.com?utm_source=project-readme&utm_medium=referral&utm_campaign=user_themes).
+
+[![](https://i3.ytimg.com/vi/zd9lGRLVDm4/hqdefault.jpg)](https://stackbit.link/project-readme-lead-video)
+
+Here's a few resources to get you started:
+
+- 📺 &nbsp; [Editing Content](https://stackbit.link/project-readme-editing-video)
+- 📺 &nbsp; [Adding, Reordering and Deleting Items](https://stackbit.link/project-readme-adding-video)
+- 📺 &nbsp; [Collaboration](https://stackbit.link/project-readme-collaboration-video)
+- 📺 &nbsp; [Publishing](https://stackbit.link/project-readme-publishing-video)
+- 📚 &nbsp; [Stackbit Documentation](https://stackbit.link/project-readme-documentation)
+
+If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
+
+## Colophon
+
+Generated at `2021-02-20T17:05:09.173Z` by Stackbit version `0.3.49`.
