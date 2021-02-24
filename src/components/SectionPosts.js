@@ -1,8 +1,7 @@
-import React from 'react';
 import _ from 'lodash';
+import React from 'react';
 
-import {htmlToReact, getPages, Link, withPrefix} from '../utils';
-import BlogPostFooter from './BlogPostFooter';
+import { getPages, htmlToReact } from '../utils';
 
 export default class SectionPosts extends React.Component {
     render() {
@@ -23,26 +22,67 @@ export default class SectionPosts extends React.Component {
               </div>
               <div className="inner">
                 <div className="grid post-feed">
-                  {_.map(recent_posts, (post, post_idx) => (
-                  <article key={post_idx} className="cell post">
-                    <div className="card">
-                      {_.get(post, 'frontmatter.thumb_image', null) && (
-                      <Link className="post-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
-                        <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.thumb_image_alt', null)} />
-                      </Link>
-                      )}
-                      <div className="post-body">
-                        <header className="post-header">
-                          <h3 className="post-title"><Link to={withPrefix(_.get(post, 'url', null))}>{_.get(post, 'frontmatter.title', null)}</Link></h3>
-                        </header>
-                        <div className="post-excerpt">
-                          <p>{_.get(post, 'frontmatter.excerpt', null)}</p>
-                        </div>
-                        <BlogPostFooter {...this.props} page={post} date_type={'short'} />
-                      </div>
+                <div className="row contactcontainer">
+                  <div className="col-sm-3 contactaddress">
+                    <div>
+                      <h4>Our Office</h4>
+                      <p>123 Main Street</p>
+                      <p>Mobile AL 36605</p>
+                      <p>USA</p>
                     </div>
-                  </article>
-                  ))}
+
+                    <ul>
+                      <li >
+                        <i className="fab fa-twitter" />
+                      </li>
+                      <li>
+                        <i className="fab fa-facebook" />
+                      </li>
+                      <li>
+                        <i className="fab fa-instagram" />
+                      </li>
+                    </ul>
+                  </div>
+                  <form name="contact" className="col-sm-9" netlify="true" method="post">
+                    <div className="form-group row">
+                      <label htmlFor="inputname" className="col-sm-2 col-form-label">
+                        Your Name:
+                      </label>
+                      <input
+                        id="inputname"
+                        className="form-control col-sm-10"
+                        type="text"
+                        name="name"
+                      />
+                    </div>
+                    <div className="form-group row">
+                      <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">
+                        Your Email:
+                      </label>
+                      <input
+                        id="inputEmail3"
+                        className="form-control col-sm-10"
+                        type="email"
+                        name="email"
+                      />
+                    </div>
+                    <div className="form-group row">
+                      <label htmlFor="inputMessage" className="col-sm-2 col-form-label">
+                        {" "}
+                        Message:
+                      </label>
+                      <textarea
+                        id="inpuMessage"
+                        className="form-control col-sm-10"
+                        name="message"
+                      />
+                    </div>
+
+                    <button className="btn btn-primary btn-lg" type="submit">
+                      Send
+                    </button>
+                  </form>
+                </div>
                 </div>
               </div>
             </section>
