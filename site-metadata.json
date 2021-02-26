@@ -3,31 +3,41 @@
     "palette": "blue",
     "header": {
         "logo_img": "images/logo.svg",
-        "logo_img_alt": "Logo",
+        "logo_img_alt": "Logo Clube Brasil Seguros -",
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Home",
-                "url": "/",
-                "style": "link"
-            },
-            {
-                "label": "Features",
+                "label": "Sobre",
                 "url": "/features",
                 "style": "link"
             },
             {
-                "label": "Pricing",
+                "label": "Vantagens",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Seguros",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Parceiros",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Clientes",
                 "url": "/pricing",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "Contato",
                 "url": "/style-guide",
                 "style": "link"
             },
             {
-                "label": "Sign Up",
+                "label": "Simule aqui",
                 "url": "/signup",
                 "style": "primary"
             }
