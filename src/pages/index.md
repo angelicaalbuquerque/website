@@ -7,7 +7,7 @@ sections:
     image_alt: ""
     title: Tranquilidade e proteção para você e sua família
     content: >-
-      Conheça os benefícios, as coberturas e as assistências que o Clube Brasil Seguros Oferece para você curtir a vida sem preocupações.
+      Conheça os benefícios, as coberturas e as assistências que o Clube Brasil Seguros oferece para você curtir o melhor da vida sem preocupações.
     actions:
       - label: Quero conhecer!
         url: /features
@@ -78,7 +78,7 @@ sections:
   - section_id: call-to-action
     type: section_cta
     title: Você merece viver com tranquilidade
-    subtitle: Aproveite todos os momentos da sua vida e deixe que cuidamos de suas preocupações. Faça uma cotação gratuita das diversas assistências que pensamos com cuidado para você.
+    subtitle: Aproveite todos os momentos felizes da sua vida e deixe que cuidamos de suas preocupações. Faça uma cotação gratuita das diversas assistências que pensamos com cuidado para você!
     actions:
       - label: Simular agora
         url: /signup
