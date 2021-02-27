@@ -3,14 +3,13 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
-    image_alt: App preview
-    title: This Is A Big Hero Headline
+    image: " "
+    image_alt: ""
+    title: Tranquilidade e proteção para você e sua família
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+      Conheça os benefícios, as coberturas e as assistências que o Clube Brasil Seguros Oferece para você curtir a vida sem preocupações.
     actions:
-      - label: Learn More
+      - label: Quero conhecer!
         url: /features
         style: primary
   - section_id: features
@@ -92,10 +91,10 @@ sections:
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Você merece viver com tranquilidade
+    subtitle: Aproveite todos os momentos da sua vida e deixe que cuidamos de suas preocupações. Faça uma cotação gratuita das diversas assistências que pensamos com cuidado para você.
     actions:
-      - label: Get Started
+      - label: Simular agora
         url: /signup
         style: primary
   - section_id: recent-posts
@@ -106,26 +105,26 @@ seo:
   title: Stackbit Azimuth Theme
   description: The preview of the Azimuth theme
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Stackbit Azimuth Theme
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: The preview of the Azimuth theme
       keyName: property
-    - name: 'og:image'
+    - name: "og:image"
       value: images/hero.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Stackbit Azimuth Theme
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: The preview of the Azimuth theme
-    - name: 'twitter:image'
+    - name: "twitter:image"
       value: images/hero.png
       relativeUrl: true
 template: landing
