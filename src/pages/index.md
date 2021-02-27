@@ -15,52 +15,39 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Sobre
+    title: Clube Brasil Seguros
     subtitle: >-
       Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
     features:
-      - title: The Best Feature of Your Services
+      - title: Proteja suas conquistas
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
           Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
           aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
           consequat ex.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
+      - title: Personalize seus planos
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
           Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
           sapien interdum luctus. Cras rhoncus condimentum metus sit amet
           auctor.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
+      - title: Contrate de forma rápida e segura
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
+
+      - title: Concorra a R$1000,00 mensais
+        image: images/feature2.png
+        image_alt: App user profile preview
+        content: >-
+          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
+          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
+          amet nec urna.
   - section_id: reviews
     type: section_reviews
     background: white
