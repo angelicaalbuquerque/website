@@ -15,10 +15,9 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Features
+    title: Sobre
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
     features:
       - title: The Best Feature of Your Services
         image: images/feature1.png
