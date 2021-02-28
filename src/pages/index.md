@@ -20,29 +20,31 @@ sections:
       Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
     features:
       - title: Proteja suas conquistas
-        image: images/feature1.png
+        image: images/vantagens-01.png
         image_alt: App preview on a phone and tablet
         content: >-
           Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
           aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
           consequat ex.
-      - title: Personalize seus planos
-        image: images/feature2.png
-        image_alt: App users welcoming a new member
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+
       - title: Contrate de forma rápida e segura
-        image: images/feature3.png
+        image: images/vantagens-03.png
         image_alt: App user profile preview
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
 
+      - title: Personalize seus planos
+        image: images/vantagens-02.png
+        image_alt: App users welcoming a new member
+        content: >-
+          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
+          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
+          auctor.
+
       - title: Concorra a R$1000,00 mensais
-        image: images/feature2.png
+        image: images/vantagens-04.png
         image_alt: App user profile preview
         content: >-
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
