@@ -53,10 +53,9 @@ sections:
   - section_id: reviews
     type: section_reviews
     background: white
-    title: Testimonials
+    title: Clientes
     subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
+      Veja os depoimentos de quem garantiu a tranquilidade para sua vida e ainda ganhou nosso sorteio mensal no valor de R$1.000,00!
     reviews:
       - author: Eric Widget
         avatar: images/review1.jpg
