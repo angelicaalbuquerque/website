@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - section_id: hero
+  - section_id: banner
     type: section_hero
     image: " "
     image_alt: ""
@@ -12,7 +12,7 @@ sections:
       - label: Quero conhecer!
         url: /features
         style: primary
-  - section_id: features
+  - section_id: sobre
     type: section_features
     background: gray
     title: Clube Brasil Seguros
@@ -50,7 +50,7 @@ sections:
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
-  - section_id: reviews
+  - section_id: clientes
     type: section_reviews
     background: white
     title: Clientes
@@ -88,6 +88,16 @@ sections:
     type: section_posts
     background: gray
     title: Latest Posts
+
+  - section_id: contact
+    type: section_contact
+    title: Contato REAL
+    subtitle: Texto contato
+    actions:
+      - label: Simular agora
+        url: /signup
+        style: primary
+
 seo:
   title: Stackbit Azimuth Theme
   description: The preview of the Azimuth theme
