@@ -8,27 +8,27 @@
         "nav_links": [
             {
                 "label": "Sobre",
-                "url": "/features",
+                "url": "/#sobre",
                 "style": "link"
             },
             {
                 "label": "Assistências",
-                "url": "/features",
+                "url": "/#assistencias",
                 "style": "link"
             },
             {
                 "label": "Parceiros",
-                "url": "/features",
+                "url": "/#parceiros",
                 "style": "link"
             },
             {
                 "label": "Clientes",
-                "url": "/pricing",
+                "url": "/#clientes",
                 "style": "link"
             },
             {
                 "label": "Contato",
-                "url": "/style-guide",
+                "url": "/#contato",
                 "style": "link"
             },
             {
