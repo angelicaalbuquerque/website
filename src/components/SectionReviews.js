@@ -1,7 +1,7 @@
-import React from 'react';
 import _ from 'lodash';
+import React from 'react';
 
-import {htmlToReact, withPrefix} from '../utils';
+import { htmlToReact, withPrefix } from '../utils';
 
 export default class SectionReviews extends React.Component {
     render() {
@@ -23,8 +23,18 @@ export default class SectionReviews extends React.Component {
                 <div className="grid">
                   {_.map(_.get(section, 'reviews', null), (review, review_idx) => (
                   <blockquote key={review_idx} className="cell review">
-                    <div className="card">
-                      <p className="review-text">{htmlToReact(_.get(review, 'content', null))}</p>
+                    {_.get(review, 'contentImage', null) && (
+                      <a class="post-thumbnail" href="#">
+                        <img src={withPrefix(_.get(review, 'contentImage', null))} alt={_.get(review, 'image_alt', null)} />
+                      </a>
+                    )}
+                    <div className={'card ' + _.get(section, 'withoutQuote', null)}>
+                      <h3>{htmlToReact(_.get(review, 'contentTitle', null))}</h3>
+                    
+                      <p className={'review-text ' + _.get(section, 'withoutQuote', null)}>{htmlToReact(_.get(review, 'content', null))}</p>
+                      {_.get(review, 'contentImage', null) && (
+                        <a class="button" href="#"><span>Saiba mais</span></a>
+                      )}
                       <footer className="review-footer">
                         {_.get(review, 'avatar', null) && (
                         <img className="review-avatar" src={withPrefix(_.get(review, 'avatar', null))} alt={_.get(review, 'avatar_alt', null)}/>
@@ -36,6 +46,20 @@ export default class SectionReviews extends React.Component {
                   ))}
                 </div>
               </div>
+              )}
+
+              {_.get(section, 'links', null) && (
+                <div class="links-parceiros">
+                    {_.map(_.get(section, 'links', null), (link) => (
+                    <div>
+                      {_.get(link, 'contentImage', null) && (
+                        <a href="#">
+                          <img className="review-avatar" src={withPrefix(_.get(link, 'contentImage', null))} alt={_.get(link, 'image_alt', null)} />
+                        </a>
+                      )}
+                    </div>
+                    ))}
+                </div>
               )}
             </section>
         );

@@ -243,6 +243,17 @@
   .card {
     height: 100%;
   }
+
+  .links-parceiros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .links-parceiros img {
+    margin: 1em;
+  }
 }
 
 @media only screen and (min-width: 901px) {
@@ -358,6 +369,16 @@
       font-weight: 600;
     }
   }
+}
+
+.without-quote {
+  padding-top: 0;
+  height: 45% !important;
+  margin-bottom: 1rem;
+}
+
+.without-quote::before {
+  display: none !important;
 }
 
 .review-footer {

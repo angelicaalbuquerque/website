@@ -50,6 +50,93 @@ sections:
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
+  - section_id: seguros
+    type: section_reviews
+    background: white
+    title: Seguros
+    withoutQuote: without-quote
+    reviews:
+      - contentTitle: Equipamentos Portáteis
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
+          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+
+      - contentTitle: Empresarial
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
+          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
+          dui sollicitudin, vel posuere justo laoreet.
+
+
+      - contentTitle: Vida
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Integer consectetur purus neque, ac porttitor enim convallis vitae.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+      
+      - contentTitle: Equipamentos Portáteis
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Integer consectetur purus neque, ac porttitor enim convallis vitae.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+      
+      - contentTitle: Empresarial
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Integer consectetur purus neque, ac porttitor enim convallis vitae.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+      - contentTitle: Vida
+        contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        content: >-
+          Integer consectetur purus neque, ac porttitor enim convallis vitae.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+  - section_id: parceiros
+    type: section_reviews
+    background: gray
+    title: Parceiros
+    subtitle: >-
+      Nossos parceiros são os mais sólidos do mercado de seguros.
+      Trazemos confiança para você!
+    links:
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+        
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+      
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
+
+      - contentImage: images/3.jpg
+        image_alt: A group of people working in a cafe
   - section_id: clientes
     type: section_reviews
     background: white
