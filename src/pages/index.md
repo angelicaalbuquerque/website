@@ -186,17 +186,17 @@ sections:
         style: primary
 
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Clube Brasil Seguros
+  description: Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
   extra:
     - name: "og:type"
       value: website
       keyName: property
     - name: "og:title"
-      value: Stackbit Azimuth Theme
+      value: Clube Brasil Seguros
       keyName: property
     - name: "og:description"
-      value: The preview of the Azimuth theme
+      value: Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
       keyName: property
     - name: "og:image"
       value: images/hero.png
@@ -205,9 +205,9 @@ seo:
     - name: "twitter:card"
       value: summary_large_image
     - name: "twitter:title"
-      value: Stackbit Azimuth Theme
+      value: Twitter
     - name: "twitter:description"
-      value: The preview of the Azimuth theme
+      value: Twitter da Clube Brasil Seguros
     - name: "twitter:image"
       value: images/hero.png
       relativeUrl: true

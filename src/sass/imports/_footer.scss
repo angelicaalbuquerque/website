@@ -43,6 +43,11 @@
 .widget-image {
   display: block;
   margin-bottom: 0.75em;
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .widget-title {
