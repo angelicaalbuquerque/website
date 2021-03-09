@@ -1,7 +1,7 @@
-import React from 'react';
 import _ from 'lodash';
+import React from 'react';
 
-import {htmlToReact, markdownify} from '../utils';
+import { htmlToReact, markdownify } from '../utils';
 import FormField from './FormField';
 
 export default class SectionContact extends React.Component {

@@ -171,20 +171,27 @@ sections:
       - label: Simular agora
         url: /signup
         style: primary
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
-
-  - section_id: contact
+  - section_id: contato
     type: section_contact
-    title: Contato REAL
-    subtitle: Texto contato
-    actions:
-      - label: Simular agora
-        url: /signup
-        style: primary
-
+    background: gray
+    title: Contato
+    subtitle: >-
+      Estamos a disposição para atender você cada vez melhor.
+    form_id: contactForm
+    form_fields:
+      - input_type: text
+        name: nome
+        label: 'Seu nome:'
+        is_required: true
+      - input_type: email
+        name: email
+        label: 'Seu e-mail:' 
+        is_required: true
+      - input_type: textarea
+        name: mensagem
+        label: 'Sua mensagem:'
+        is_required: true
+    submit_label: Enviar mensagem
 seo:
   title: Clube Brasil Seguros
   description: Somos um clube de benefícios onde a sua segurança é a nossa prioridade. Nossos parceiros são os melhores do mercado e disponibilizam planos personalizados para você e sua família.
