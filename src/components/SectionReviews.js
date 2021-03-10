@@ -54,7 +54,7 @@ export default class SectionReviews extends React.Component {
                     <div>
                       {_.get(link, 'contentImage', null) && (
                         <a href="#">
-                          <img className="review-avatar" src={withPrefix(_.get(link, 'contentImage', null))} alt={_.get(link, 'image_alt', null)} />
+                          <img className="parceiros-avatar" src={withPrefix(_.get(link, 'contentImage', null))} alt={_.get(link, 'image_alt', null)} />
                         </a>
                       )}
                     </div>

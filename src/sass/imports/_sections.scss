@@ -391,8 +391,9 @@
 
 .review-avatar {
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
+  height: 60px;
+  margin-right: 0.9375em;
+  width: 60px;
 }
 
 .review-author {
@@ -447,6 +448,13 @@
       }
     }
   }
+}
+
+// PARCEIROS
+.parceiros-avatar {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
 }
 
 // Posts block
