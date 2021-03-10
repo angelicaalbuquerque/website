@@ -1,0 +1,62 @@
+{
+    "base_font": "nunito-sans",
+    "palette": "blue",
+    "favicon": "/images/favicon.png",
+    "header": {
+        "logo_img": "images/logo.svg",
+        "logo_img_alt": "Logo Clube Brasil Seguros -",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Sobre",
+                "url": "/#sobre",
+                "style": "link"
+            },
+            {
+                "label": "Assistências",
+                "url": "/#assistencias",
+                "style": "link"
+            },
+            {
+                "label": "Parceiros",
+                "url": "/#parceiros",
+                "style": "link"
+            },
+            {
+                "label": "Clientes",
+                "url": "/#clientes",
+                "style": "link"
+            },
+            {
+                "label": "Contato",
+                "url": "/#contato",
+                "style": "link"
+            },
+            {
+                "label": "Simule aqui",
+                "url": "/signup",
+                "style": "primary"
+            }
+        ]
+    },
+    "footer": {
+        "sections": [
+            {
+                "type": "footer_text",
+                "image": "images/logo-alt.svg",
+                "image_url": "/",
+                "image_alt": "Footer logo",
+                "content": "Clube Brasil Seguros"
+            },
+            {
+                "type": "footer_text",
+                "title": "Fale Conosco",
+                "content": 
+                "Avenida das Américas, 2480 - Bloco 2 / 308\n\nTelefone: (21)3952-0100\n\nE-mail: atendimento@clubebrasilseguros.com"
+            }
+        ],
+        "has_nav": true,
+        "content": "&copy; Clube Brasil Seguros. Todos os direitos reservados."
+    },
+    "title": "Clube Brasil Seguros"
+}
