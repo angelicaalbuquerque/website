@@ -50,10 +50,10 @@ sections:
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
-  - section_id: seguros
+  - section_id: assistencias
     type: section_reviews
     background: white
-    title: Seguros
+    title: Assistências
     withoutQuote: without-quote
     reviews:
       - contentTitle: Equipamentos Portáteis
@@ -71,21 +71,20 @@ sections:
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
           dui sollicitudin, vel posuere justo laoreet.
 
-
       - contentTitle: Vida
         contentImage: images/3.jpg
         image_alt: A group of people working in a cafe
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-      
+
       - contentTitle: Equipamentos Portáteis
         contentImage: images/3.jpg
         image_alt: A group of people working in a cafe
         content: >-
           Integer consectetur purus neque, ac porttitor enim convallis vitae.
           Interdum et malesuada fames ac ante ipsum primis in faucibus.
-      
+
       - contentTitle: Empresarial
         contentImage: images/3.jpg
         image_alt: A group of people working in a cafe
@@ -108,35 +107,17 @@ sections:
       Nossos parceiros são os mais sólidos do mercado de seguros.
       Trazemos confiança para você!
     links:
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
+      - contentImage: images/parceiros/zurich.png
+        image_alt: logotipo Zurich
 
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
+      - contentImage: images/parceiros/igs.png
+        image_alt: logotipo IGS
 
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-        
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
+      - contentImage: images/parceiros/chubb.png
+        image_alt: logotipo Chubb Seguros
 
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-      
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
-
-      - contentImage: images/3.jpg
-        image_alt: A group of people working in a cafe
+      - contentImage: images/parceiros/mbm.png
+        image_alt: logotipo MBM
   - section_id: clientes
     type: section_reviews
     background: white
@@ -181,15 +162,15 @@ sections:
     form_fields:
       - input_type: text
         name: nome
-        label: 'Seu nome:'
+        label: "Seu nome:"
         is_required: true
       - input_type: email
         name: email
-        label: 'Seu e-mail:' 
+        label: "Seu e-mail:"
         is_required: true
       - input_type: textarea
         name: mensagem
-        label: 'Sua mensagem:'
+        label: "Sua mensagem:"
         is_required: true
     submit_label: Enviar mensagem
 seo:
