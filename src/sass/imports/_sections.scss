@@ -26,6 +26,18 @@
       margin-bottom: 1.66667em;
     }
   }
+
+  .subtitle-link {
+    color: #7b839e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .subtitle-link:hover {
+    color: #0072ff;
+    cursor: pointer !important;
+    text-decoration: underline;
+  }
 }
 
 .block-preview {
@@ -227,8 +239,7 @@
   }
 }
 
-// Pricing, reviews blocks
-.pricing-block,
+// Reviews blocks
 .reviews-block {
   .grid {
     -ms-flex-pack: center;
@@ -244,6 +255,10 @@
     height: 100%;
   }
 
+  .card-assistencias {
+    margin-bottom: 1em;
+  }
+
   .links-parceiros {
     display: flex;
     flex-direction: row;
@@ -254,10 +269,16 @@
   .links-parceiros img {
     margin: 1em;
   }
+
+  .button-customer-testimony {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 901px) {
-  .pricing-block,
   .reviews-block {
     .cell:first-child:nth-last-child(3),
     .cell:first-child:nth-last-child(3) ~ .cell {
@@ -268,74 +289,27 @@
   }
 }
 
-.plan {
-  .card {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding: 1.33333em;
-    text-align: center;
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .card-assistencias {
+    max-height: 60% !important;
   }
 }
 
-.plan-header {
-  margin-bottom: 1em;
-}
-
-.plan-title {
-  font-size: 1.11111em;
-  margin: 0;
-}
-
-.plan-subtitle {
-  font-size: 0.88889em;
-  line-height: 1.5;
-
-  &:not(:first-child) {
-    margin-top: 0.375em;
+@media only screen and (min-width: 400px) and (max-width: 681px) {
+  .card-assistencias {
+    height: 45% !important;
   }
 }
 
-.plan-price {
-  color: $gray-700;
-  font-weight: bold;
-  font-size: 2.22222em;
-  margin-top: 0.5em;
-
-  &:first-child {
-    margin-top: 0;
-  }
-
-  .font-fira-sans & {
-    font-weight: 600;
+@media only screen and (min-width: 681px) and (max-width: 981px) {
+  .card-assistencias {
+    max-height: 50% !important;
   }
 }
 
-.plan-content {
-  font-size: 0.88889em;
-  line-height: 1.5;
-
-  ul,
-  ol {
-    line-height: 1.3;
-    list-style: none;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: 0.75em;
-  }
-}
-
-.plan-footer {
-  margin-bottom: 0;
-  margin-top: auto;
-  padding-top: 1.66667em;
-
-  a {
-    margin: 0 0 1em;
-    width: 100%;
+@media only screen and (min-width: 981px) {
+  .card-assistencias {
+    max-height: 48% !important;
   }
 }
 
@@ -373,12 +347,17 @@
 
 .without-quote {
   padding-top: 0;
-  height: 45% !important;
   margin-bottom: 1rem;
 }
 
 .without-quote::before {
   display: none !important;
+}
+
+.button-card-block {
+  position: absolute;
+  bottom: 5px;
+  margin-top: 10px;
 }
 
 .review-footer {
@@ -416,6 +395,11 @@
     &:first-child {
       margin-top: 0;
     }
+
+    .card-feedback-form {
+      text-align: center;
+      padding: 2em;
+    }
   }
 
   &:only-child {
@@ -450,130 +434,11 @@
   }
 }
 
-// PARCEIROS
+// Parceiros
 .parceiros-avatar {
   border-radius: 50%;
   height: 130px;
   width: 130px;
-}
-
-// Posts block
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-  .posts-block {
-    .cell {
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-
-    .card {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
-    }
-
-    .post-thumbnail {
-      -ms-flex: 0 0 40%;
-      flex: 0 0 40%;
-      max-width: 40%;
-    }
-
-    .post-thumbnail,
-    .post-thumbnail img {
-      border-radius: 0 $border-radius $border-radius 0;
-    }
-
-    .post-body {
-      -ms-flex-positive: 1;
-      flex-grow: 1;
-    }
-  }
-}
-
-// Faq section
-.handorgel {
-  margin-bottom: 2.5em;
-}
-
-.handorgel__header {
-  background: #fff;
-  border: 1px solid $gray-200;
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
-  box-sizing: border-box;
-  font-size: 1em;
-  margin: 1.25em 0 0;
-}
-
-.handorgel__trigger {
-  -ms-flex-align: center;
-  align-items: center;
-  background: 0;
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
-  color: inherit;
-  cursor: pointer;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-size: inherit;
-  font-weight: inherit;
-  -ms-flex-pack: space-between;
-  justify-content: space-between;
-  line-height: inherit;
-  padding: 1.125em 0.83333em;
-  text-align: left;
-  white-space: normal;
-  width: 100%;
-
-  &:hover,
-  &:focus,
-  &:active {
-    outline: 0;
-  }
-}
-
-.handorgel__icon {
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
-.handorgel__content {
-  box-sizing: border-box;
-  display: none;
-  overflow: hidden;
-  height: 0;
-  -webkit-transition: height 0.1s ease 0.1s;
-  transition: height 0.1s ease 0.1s;
-}
-
-.handorgel__content-inner {
-  background: #fff;
-  border: 1px solid $gray-200;
-  border-top: 0;
-  border-radius: 0 0 $border-radius $border-radius;
-  box-shadow: $box-shadow;
-  font-size: 0.88889em;
-  padding: 1.125em 0.9375em;
-}
-
-.handorgel__header--open.handorgel__header--opened {
-  border-radius: $border-radius $border-radius 0 0;
-
-  .icon-plus:after {
-    display: none;
-  }
-}
-
-.handorgel__content--open {
-  display: block;
-  -webkit-transition: height 0.2s ease;
-  transition: height 0.2s ease;
-}
-
-.handorgel__content--opened {
-  overflow: visible;
 }
 
 // Section background variations
@@ -658,41 +523,6 @@
     color: #fff;
   }
 
-  .contactcontainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: stretch;
-    width: 100%;
-  }
-  .contactaddress {
-    max-width: 30%;
-    border-right: 1px solid #ddd;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .contactaddress h4 {
-    text-transform: capitalize;
-  }
-
-  .contactaddress p {
-    font-size: 16;
-    line-height: 12px;
-    font-weight: 200;
-  }
-  .contactaddress ul {
-    list-style: none;
-    display: block;
-    padding: 0;
-  }
-  .contactaddress ul li {
-    float: left;
-    margin-left: 5px;
-  }
   #contact {
     min-width: 400px;
     padding-left: 50px;

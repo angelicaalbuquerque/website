@@ -55,7 +55,6 @@
     margin-left: -$container-padding / 2;
     margin-right: -$container-padding / 2;
   }
-  
   .cell {
     padding-left: $container-padding / 2;
     padding-right: $container-padding / 2;
@@ -73,5 +72,52 @@
   &.highlight {
     border-color: $color-primary;
     border-width: 2px;
+  }
+}
+
+.react-responsive-modal-modal {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  text-align: justify !important;
+
+  h2 {
+    display: block;
+    width: 80%;
+  }
+
+  hr {
+    background-color: #dddee2;
+  }
+}
+
+.react-responsive-modal-closeButton {
+  display: block;
+  margin: 1em;
+}
+
+.modal-body {
+  ul {
+    display: block;
+    margin-left: 3em !important;
+  }
+
+  li {
+    margin: 1em;
+  }
+}
+
+.not-found {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+
+  .card {
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    margin-top: 8rem;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 7em 5em 5em 5em;
   }
 }

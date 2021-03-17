@@ -1,11 +1,12 @@
-import React from 'react';
-import {Helmet} from 'react-helmet';
-import _ from 'lodash';
-
-import {withPrefix, attribute} from '../utils';
 import '../sass/main.scss';
-import Header from './Header';
+
+import _ from 'lodash';
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
+import { attribute, withPrefix } from '../utils';
 import Footer from './Footer';
+import Header from './Header';
 
 export default class Body extends React.Component {
     render() {
@@ -49,6 +50,8 @@ export default class Body extends React.Component {
                     <link rel="icon" href={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.favicon', null))}/>
                     )}
                     <body className={'palette-' + _.get(this.props, 'pageContext.site.siteMetadata.palette', null) + ' font-' + _.get(this.props, 'pageContext.site.siteMetadata.base_font', null)} />
+                    <script src="/api/simple-form.js"></script>
+                    <script src="/api/whatsapp-button.js"></script>
                 </Helmet>
                 <div id="page" className="site">
                   <Header {...this.props} />

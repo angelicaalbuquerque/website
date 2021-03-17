@@ -1,5 +1,6 @@
 html {
   font-size: 112.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -194,4 +195,10 @@ video {
 img {
   height: auto;
   max-width: 100%;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }

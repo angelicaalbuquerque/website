@@ -31,4 +31,14 @@ Array.from(faqAccordions).forEach((faqAccordion) => {
     multiSelectable: true
   });
 });
+
+
+if(window.SimpleForm) {
+	new SimpleForm({
+	  form: ".formphp",
+	  button: "#enviarMensagem",
+	  erro: "<div id='form-erro' class='card card-feedback-form'><img src='images/wrong.svg' alt='Ícone Wrong - designed by Pixel Perfect/Flaticon' width='100' height='100'><h3>Erro ao enviar mensagem</h3><p>Por favor, tente enviar sua mensagem para o e-mail atendimento@clubebrasilseguros.com.</p></div>",
+	  sucesso: "<div id='form-sucesso' class='card card-feedback-form'><img src='images/check.svg' alt='Ícone Check - designed by Pixel Perfect/Flaticon' width='100' height='100'><h3>Formulário enviado com sucesso</h3><p>Em breve entraremos em contato.</p></div>",
+	});
+}
 };

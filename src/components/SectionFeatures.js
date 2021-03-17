@@ -1,7 +1,7 @@
-import React from 'react';
 import _ from 'lodash';
+import React from 'react';
 
-import {htmlToReact, withPrefix, markdownify} from '../utils';
+import { htmlToReact, markdownify, withPrefix } from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionFeatures extends React.Component {
@@ -9,7 +9,7 @@ export default class SectionFeatures extends React.Component {
         let section = _.get(this.props, 'section', null);
         return (
             <section id={_.get(section, 'section_id', null)} className={'block features-block bg-' + _.get(section, 'background', null) + ' outer'}>
-              <div className="block-header inner-small">
+              <div className="block-header inner-about">
                 {_.get(section, 'title', null) && (
                 <h2 className="block-title">{_.get(section, 'title', null)}</h2>
                 )}
