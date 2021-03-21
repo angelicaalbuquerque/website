@@ -30,7 +30,7 @@ export default class Header extends React.Component {
                             let action_url = _.trim(_.get(action, 'url', null), '/');
                             let action_style = _.get(action, 'style', null) || 'link';
                             return (
-                              <li key={action_idx} className={classNames('menu-item', {'current-menu-item': page_url === action_url, 'menu-button': action_style !== 'link'})}>
+                              <li key={action_idx} className={classNames('menu-item', {'current-menu-item': page_url === action_url, 'menu-button': action_style !== 'link'},'option-choose')}>
                                 <Action {...this.props} action={action} />
                               </li>
                             )
