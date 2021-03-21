@@ -90,6 +90,30 @@
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .react-responsive-modal-modal {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    text-align: justify !important;
+    width: 80%;
+  
+    h2 {
+      display: block;
+      width: 80%;
+    }
+  
+    hr {
+      background-color: #dddee2;
+    }
+    li{
+      font-size: 15px;
+    }
+    p{
+      font-size: 15px;
+    }
+  }
+}
+
 .react-responsive-modal-closeButton {
   display: block;
   margin: 1em;
@@ -103,6 +127,18 @@
 
   li {
     margin: 1em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .modal-body {
+    ul {
+      display:block;
+      margin-left: 0px !important;
+    }
+    li {
+      margin: 0em !important;
+    }
   }
 }
 
