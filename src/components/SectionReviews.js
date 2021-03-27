@@ -39,6 +39,19 @@ export default class SectionReviews extends React.Component {
                 {_.get(section, 'subtitle', null) && (
                 <p className="block-subtitle inner-about">
                   {htmlToReact(_.get(section, 'subtitle', null))}
+
+                  {_.get(section, 'modalCoverageTitle', null) && (
+                    <span className="subtitle-link" onClick={() => this.onOpenModal(
+                      _.get(section, 'modalCoverageTitle', null), _.get(section, 'modalCoverageBody', null))}
+                      onKeyDown={() => this.onOpenModal(
+                      _.get(section, 'modalCoverageTitle', null), _.get(section, 'modalCoverageBody', null))}
+                      role="button"
+                      tabIndex={0}>
+                      {htmlToReact(_.get(section, 'subtitleLinkText', null))}
+                    </span>
+                  )}
+
+                  {_.get(section, 'modalTermsOfUseTitle', null) && (
                   <span className="subtitle-link" onClick={() => this.onOpenModal(
                      _.get(section, 'modalTermsOfUseTitle', null), _.get(section, 'modalTermsOfUseBody', null))}
                      onKeyDown={() => this.onOpenModal(
@@ -47,7 +60,7 @@ export default class SectionReviews extends React.Component {
                     tabIndex={0}>
                     {htmlToReact(_.get(section, 'subtitleLinkText', null))}
                   </span>
-                
+                  )}
                 </p>
                 )}
               </div>

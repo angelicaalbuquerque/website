@@ -50,12 +50,36 @@ sections:
           In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
           quis venenatis sem. Proin eget massa id metus eleifend maximus sit
           amet nec urna.
+
+  - section_id: coberturas
+    type: section_reviews
+    background: white
+    title: Coberturas
+    subtitle: >-
+      O Clube Brasil Seguros tem a melhor proteção para você, em todos os momentos da vida.
+    subtitleLinkText: Conheça aqui as coberturas!
+    modalCoverageTitle: >-
+      Coberturas
+    modalCoverageBody: >-
+      <p><strong>Morte</strong>: Indenização em caso de morte do segurado decorrente de causas naturais ou acidentais.</p>
+      <p><strong>Morte Acidental</strong>: Indenização em caso de morte do segurado decorrente exclusivamente de causas acidentais.</p>
+      <p><strong>Invalidez Permanente por Acidente</strong>: Indenização no caso de invalidez permanente do segurado decorrente exclusivamente de causas acidentais.</p>
+      <p><strong>Invalidez Permanente por Doença Funcional</strong>: Indenização no caso de invalidez funcional total e permanente do segurado, em consequência de doença que cause a perda de sua existência independente.</p>
+      <p><strong>Doenças Graves</strong>: Indenização em caso de primeiro diagnóstico de uma das doenças incluídas no pacote contratado.</p>
+      <p><strong>Diárias de Incapacidade Temporária por Acidente ou Doença</strong>: Indenização proporcional ao período de afastamento em caso da impossibilidade contínua e ininterrupta do segurado de exercer a sua profissão ou ocupação durante o período em que estiver sob tratamento médico.</p>
+      <p><strong>Despesas Médico-Hospitalares e Odontológicas por Acidente</strong>: Reembolso das despesas médicas, hospitalares e/ou odontológicas incorridas a critério e sob orientação médica, necessárias ao restabelecimento do segurado e realizadas em consequência exclusiva de acidente pessoal.</p>
+      <p><strong>Diária por Internação Hospitalar</strong>: Pagamento de uma indenização proporcional ao período de internação do segurado, no caso de sua hospitalização.</p>
+      <p><strong>Indenização Especial por Cirurgia</strong>: Pagamento de indenização ao segurado, caso seja realizado procedimento cirúrgico invasivo coberto pelo seguro. Possibilidade de contratação de planos com até 440 procedimentos, selecionados de acordo com sua complexidade.</p>
+      <p><strong>Assistência Funeral Familiar</strong>: Reembolso das despesas com funeral ou a disponibilização dos serviços de assistência funeral, até o limite do capital segurado contratado, em caso de falecimento do segurado ou de seus familiares, de causa natural ou acidental.</p>
+    reviews: []
+    withoutQuote: whithout-quote
+
   - section_id: assistencias
     type: section_reviews
     background: white
     title: Assistências
     subtitle: >-
-      Saiba cada detalhe sobre cada assistência oferecida! Aproveite e também 
+      Saiba cada detalhe sobre cada assistência oferecida! Aproveite e também
     subtitleLinkText: >-
       conheça aqui os termos de uso.
     modalTermsOfUseTitle: >-
@@ -125,12 +149,12 @@ sections:
                   </li>
                   <li><strong>SOCORRO HIDRÁULICO/ENCANADOR</strong> -Será oferecido serviço de encanador caso ocorram na residência assistida vazamentos que causem ou possam causar alagamentos internos, ocasionados por problemas hidráulicos em tubulações externas (torneiras, sifões, chuveiros e outros dispositivos hidráulicos aparentes) ou entupimento de ramais internos em pias, ralos, vasos sanitários e tanques (tubulações de 1 a 2 polegadas), desde que não haja necessidade de utilização de qualquer equipamento de detecção eletrônica. Este serviço não cobre tubulações de esgoto e caixa de gordura e respeitará limites e coberturas descritos abaixo. 
                   <em>Limite monetário: R$ 150,00 por evento.</em> </li>
-                  <li><strong>SOCORRO ELÉTRICO</strong> - Será oferecido serviços de eletricista caso ocorra tomadas queimadas, interruptores defeituosos, disjuntores e fusíveis danificados, chaves facas, troca de chuveiros ou resistências de chuveiros ou torneiras elétricas (não blindados) decorrentes de problema funcional ou que possam vir a acarretar curto circuito ou interrupção de energia na rede de baixa tensão na residência. A IGS se responsabilizará pelo envio de um profissional para conter a situação emergencial, conforme limites e coberturas descritos abaixo.
+                  <li><strong>SOCORRO ELÉTRICO</strong> - Será oferecido serviços de eletricista caso ocorra tomadas queimadas, interruptores defeituosos, disjuntores e fusíveis danificados, chaves facas, troca de chuveiros ou resistências de chuveiros ou torneiras elétricas (não blindados) decorrentes de problema funcional ou que possam vir a acarretar curto circuito ou interrupção de energia na rede de baixa tensão na residência. O CBS – Clube Brasil Seguros se responsabilizará pelo envio de um profissional para conter a situação emergencial, conforme limites e coberturas descritos abaixo.
                     <em>Limite monetário: R$ 150,00 por evento.</em> 
                   </li>
-                  <li><strong>VIDRACEIRO</strong> - Na hipótese de Quebra de Vidros de portas ou janelas externas, a IGS se encarregará do envio de um profissional qualificado para conter a situação ou, quando possível, executar os serviços definitivos, arcando com o custo de mão de obra e o material básico de reposição necessário limitado a cobertura contratada. O material será vidro transparente básico (canelado, liso ou martelado, até 4mm de espessura). A IGS não terá responsabilidade sobre a localização de vidros coloridos, fumês, temperados, jateados, especiais ou que estejam fora de linha de fabricação.
+                  <li><strong>VIDRACEIRO</strong> - Na hipótese de Quebra de Vidros de portas ou janelas externas, o CBS – Clube Brasil Seguros se encarregará do envio de um profissional qualificado para conter a situação ou, quando possível, executar os serviços definitivos, arcando com o custo de mão de obra e o material básico de reposição necessário limitado a cobertura contratada. O material será vidro transparente básico (canelado, liso ou martelado, até 4mm de espessura). O CBS – Clube Brasil Seguros não terá responsabilidade sobre a localização de vidros coloridos, fumês, temperados, jateados, especiais ou que estejam fora de linha de fabricação.
                     <br><br>
-                    <em>Obs.: Os custos de execução do serviço que excederem os limites serão de responsabilidade exclusiva do usuário. A escolha do material básico a ser utilizado fica a critério da IGS, cuja premissa é a resolução do problema em caráter emergencial, visando o não agravamento da situação. Caso não seja possível a realização do serviço de vidraceiro nos termos acima mencionados, a IGS fornecerá a colocação de tapume, neste caso o serviço será encerrado e o prestador não voltará para a troca do vidro. A IGS não se responsabiliza pela substituição de materiais idênticos aos existentes ou pela manutenção de questões estéticas da residência.</em>
+                    <em>Obs.: Os custos de execução do serviço que excederem os limites serão de responsabilidade exclusiva do usuário. A escolha do material básico a ser utilizado fica a critério do CBS – Clube Brasil Seguros, cuja premissa é a resolução do problema em caráter emergencial, visando o não agravamento da situação. Caso não seja possível a realização do serviço de vidraceiro nos termos acima mencionados, o CBS – Clube Brasil Seguros fornecerá a colocação de tapume, neste caso o serviço será encerrado e o prestador não voltará para a troca do vidro. O CBS – Clube Brasil Seguros não se responsabiliza pela substituição de materiais idênticos aos existentes ou pela manutenção de questões estéticas da residência.</em>
                     <br><br>
                     <em>Limite monetário: R$ 150,00 por evento.</em> 
                   </li>     
@@ -142,7 +166,7 @@ sections:
                       </ul>
                     <em>Limite monetário: R$ 150,00 por evento.</em> 
                   </li> 
-                  <li><strong>REGRESSO ANTECIPADO</strong> - Na hipótese de eventos cobertos, se o usuário estiver em viagem, dentro do território nacional e for necessário o seu regresso em função de danos ao imóvel, a IGS providenciará uma passagem rodoviária ou aérea na classe econômica para o seu retorno, dentro do limite estabelecido para este serviço. Este serviço será fornecido desde que o usuário esteja a mais de 300 quilômetros da residência ou o trajeto por via rodoviária seja superior a 5 horas.
+                  <li><strong>REGRESSO ANTECIPADO</strong> - Na hipótese de eventos cobertos, se o usuário estiver em viagem, dentro do território nacional e for necessário o seu regresso em função de danos ao imóvel, o CBS – Clube Brasil Seguros providenciará uma passagem rodoviária ou aérea na classe econômica para o seu retorno, dentro do limite estabelecido para este serviço. Este serviço será fornecido desde que o usuário esteja a mais de 300 quilômetros da residência ou o trajeto por via rodoviária seja superior a 5 horas.
                   <br><br>
                     <em>Limite monetário: R$ 200,00 por evento.</em> 
                   </li> 
@@ -178,9 +202,9 @@ sections:
                       </ul>
                       <li>Observações:
                           <ul>
-                            <li>Os custos de execução do(s) serviço(s) serão de responsabilidade exclusiva do afiliado, obedecendo a uma tabela de preços diferenciados. Os profissionais acima são compostos por pessoas jurídicas ou físicas selecionadas pela rede de prestadores da IGS, aptos a fornecer serviços com qualidade e garantia;</li>
+                            <li>Os custos de execução do(s) serviço(s) serão de responsabilidade exclusiva do afiliado, obedecendo a uma tabela de preços diferenciados. Os profissionais acima são compostos por pessoas jurídicas ou físicas selecionadas pela rede de prestadores do CBS – Clube Brasil Seguros, aptos a fornecer serviços com qualidade e garantia;</li>
                             <li>O agendamento para serviços que não sejam emergenciais, o prazo para envio do prestador será de 48 horas, de segunda a sexta-feira;</li>
-                            <li>O usuário deverá consultar a IGS para se verificar se sua cidade possui prestador disponível, não devendo haver deslocamento de prestadores entre municípios, sendo a assistência encerrada;</li>
+                            <li>O usuário deverá consultar o CBS – Clube Brasil Seguros para se verificar se sua cidade possui prestador disponível, não devendo haver deslocamento de prestadores entre municípios, sendo a assistência encerrada;</li>
                             <li>Não será fornecido atendimento para construções de cômodos ou aumento da área construída do imóvel, sendo o serviço exclusivo para pequenas benfeitorias do imóvel;</li>
                             <li>Os serviços de eletrodomésticos e eletroeletrônicos, de fabricação nacional, são exclusivamente para: Eletrodomésticos (linha branca) - geladeira, freezer, micro-ondas, lava-louça, fogão, depurador de ar/ exaustor de ar, secadora, frigobar e máquina de lavar roupas; Eletroeletrônicos (linha marrom) - Televisão (Convencional, Led, LCD e Plasma), Vídeo Cassete, Blu-ray Player, DVD, Aparelho de Som e Home-Theater.</li>
                           </ul>
@@ -261,10 +285,10 @@ sections:
             <li>Despesas de qualquer natureza, sem autorização prévia da Central de Atendimento, não previstas nessas condições gerais ou superiores ao limite fixado (na tabela de cobertura). </li>
             <li>A Assistência 24h não se responsabiliza por ataques praticados pelo Animal Assistido assim como por qualquer despesa decorrente deste ataque. </li>
             <li>Também não será de responsabilidade da Assistência qualquer despesa causada pelo Animal Assistido e que não esteja contida no serviço. </li>
-            <li>A IGS não será responsável pelos reembolsos por gastos do Usuário nas seguintes situações:</li>
+            <li>O CBS – Clube Brasil Seguros não será responsável pelos reembolsos por gastos do Usuário nas seguintes situações:</li>
               <ul>
                 <li>Serviços solicitados diretamente pelo Cliente ao prestador, sem prévio consentimento da Assistência 24h.</li>
-                <li>Despesas correspondentes a assistências veterinárias pagas pelo Cliente antes de seu contato com a IGS.</li>
+                <li>Despesas correspondentes a assistências veterinárias pagas pelo Cliente antes de seu contato com o CBS – Clube Brasil Seguros.</li>
                 <li>Doenças preexistentes.</li>
                 <li>Assistência a toda e qualquer consequência resultante de morte ou lesões causadas, direta ou indiretamente, por atividades criminosas ou dolosas do Cliente.</li>
                 <li>Assistência derivada da morte por sacrifício induzido, e/ou lesões em consequência do mesmo.</li>
@@ -280,10 +304,10 @@ sections:
         contentImage: images/assistencias/assistencia-saude-homem.jpg
         image_alt: Médico e paciente sorrindo
         content: >-
-          Fone Doutor, exames preventivos, orientação fitness, assistência nutricional e orientação psicológica.
+          Fone Doutor, exames preventivos, orientação fitness, assistência nutricional e orientação psicológica. Saiba tudo sobre a assistência médica exclusiva para o homem!
         fullContent: >-
           <p>
-            A IGS oferece o serviço de Assistência Médica Homem, contemplando:<br>
+            O CBS – Clube Brasil Seguros oferece o serviço de Assistência Médica Homem, contemplando:<br>
           </p>
 
           <ul>
@@ -291,11 +315,11 @@ sections:
             <li><strong>Exames preventivos</strong> - Hemograma Completo, Glicemia Jejum, Colesterol Total e Frações, Antígeno Prostático;</li>
             <li>
               <strong>Orientação Fitness</strong>
-              - A IGS oferece o serviço de Assistência Fitness através de profissionais de educação física devidamente habilitados e com experiência na orientação de programas de atividade físicas. A equipe de profissionais analisará as solicitações e dúvidas do Cliente, realizando uma avaliação individualizada, cujo objetivo será o de orientar e apresentar ao Cliente, um Programa de Atividades Físicas de acordo com as necessidades de cada um. Dentre as atividades propostas, inclui-se orientações especializadas para grupos específicos: gestantes, adolescentes e crianças, idosos, portadores de necessidades especiais, dentre outros;
+              - O CBS – Clube Brasil Seguros oferece o serviço de Assistência Fitness através de profissionais de educação física devidamente habilitados e com experiência na orientação de programas de atividade físicas. A equipe de profissionais analisará as solicitações e dúvidas do Cliente, realizando uma avaliação individualizada, cujo objetivo será o de orientar e apresentar ao Cliente, um Programa de Atividades Físicas de acordo com as necessidades de cada um. Dentre as atividades propostas, inclui-se orientações especializadas para grupos específicos: gestantes, adolescentes e crianças, idosos, portadores de necessidades especiais, dentre outros;
             </li>
             <li>
               <strong>Assistência Nutricional</strong> 
-              - A IGS providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;
+              - O CBS – Clube Brasil Seguros providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;
             </li>
             <li>
               <strong>Orientação Psicológica </strong> 
@@ -313,7 +337,7 @@ sections:
 
         fullContent: >-
           <p>
-            A IGS oferece o serviço de Assistência Médica Mulher, contemplando:<br>
+            O CBS – Clube Brasil Seguros oferece o serviço de Assistência Médica Mulher, contemplando:<br>
           </p>
 
           <ul>
@@ -321,11 +345,11 @@ sections:
             <li><strong>Exames preventivos</strong> - Hemograma Completo, Glicemia Jejum, Colesterol Total e Frações, Antígeno Prostático;</li>
             <li>
               <strong>Orientação Fitness</strong>
-              - A IGS oferece o serviço de Assistência Fitness através de profissionais de educação física devidamente habilitados e com experiência na orientação de programas de atividade físicas. A equipe de profissionais analisará as solicitações e dúvidas do Cliente, realizando uma avaliação individualizada, cujo objetivo será o de orientar e apresentar ao Cliente, um Programa de Atividades Físicas de acordo com as necessidades de cada um. Dentre as atividades propostas, inclui-se orientações especializadas para grupos específicos: gestantes, adolescentes e crianças, idosos, portadores de necessidades especiais, dentre outros;
+              - O CBS – Clube Brasil Seguros oferece o serviço de Assistência Fitness através de profissionais de educação física devidamente habilitados e com experiência na orientação de programas de atividade físicas. A equipe de profissionais analisará as solicitações e dúvidas do Cliente, realizando uma avaliação individualizada, cujo objetivo será o de orientar e apresentar ao Cliente, um Programa de Atividades Físicas de acordo com as necessidades de cada um. Dentre as atividades propostas, inclui-se orientações especializadas para grupos específicos: gestantes, adolescentes e crianças, idosos, portadores de necessidades especiais, dentre outros;
             </li>
             <li>
               <strong>Assistência Nutricional</strong> 
-              - A IGS providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;
+              - O CBS – Clube Brasil Seguros providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;
             </li>
             <li>
               <strong>Orientação Psicológica </strong> 
@@ -341,7 +365,7 @@ sections:
         contentImage: images/assistencias/assistencia-odontologica.jpg
         image_alt: Dentista mostrando a uma paciente no consultório como escovar dentes
         content: >-
-          Atendimento odontológico emergencial, urgência estético-funcional e prestação de serviço em todo o Brasil.
+          Atendimento odontológico emergencial, urgência estético-funcional e prestação de serviço em todo o Brasil. Conheça os eventos cobertos!
         fullContent: >-
           <p><strong>• Eventos cobertos</strong>: Atendimento odontológico emergencial (dor de dente).</p>
           <p><strong>• Limite utilização</strong>: 2 utilizações na vigência.</p>
@@ -369,7 +393,7 @@ sections:
         content: >-
           Fone Doutor, exames preventivos, translado médico por emergência, courrier para coleta de resultados de exames e envio de medicamentos, localização de cuidador ou enfermeira, [...]
         fullContent: >-
-          <p>A IGS oferece o serviço de Assistência Adulto Sênior, contemplando:</p>
+          <p>O CBS – Clube Brasil Seguros oferece o serviço de Assistência Adulto Sênior, contemplando:</p>
           <ul>
             <li><strong>Fone Doutor</strong> - Atendimento médico por telefone para orientações;</li>
             <li><strong>Exames preventivos</strong> - Hemograma Completo, Glicemia Jejum, Colesterol Total e Frações, Colpocitologia ou Antígeno Prostático;</li>
@@ -379,7 +403,7 @@ sections:
             <li><strong>Lembrete de ingesta de medicamentos</strong>;</li>
             <li><strong>Lembrete de consultas médicas</strong>;</li>
             <li><strong>Localização de cuidador ou enfermeira</strong>;</li>
-            <li><strong>Assistência Nutricional </strong> - A IGS providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;</li>
+            <li><strong>Assistência Nutricional </strong> - O CBS – Clube Brasil Seguros providenciará o serviço de orientação nutricional por telefone através de nutricionistas experientes e capacitados para responderem às mais diversas dúvidas sobre alimentação, rótulos, calorias, vitaminas, entre outras. Forneceremos orientações em situações específicas como diabetes, hipertensão e emagrecimento, procurando favorecer a sua saúde e qualidade de vida;</li>
             <li><strong>Orientação Psicológica</strong> - Atendimento a pessoas que estiverem em situações de forte impacto emocional tais como: perdas, luto, traumas em decorrência de acidentes, invalidez e doenças graves. O serviço de atendimento Psicológico remoto é uma forma de trabalho reconhecida e aceita pelo CFP-Conselho Federal de Psicologia através da Resolução Nº 011/2012. O psicólogo habilitado, autorizado e credenciado junto ao Conselho Regional de Psicologia, orientará o Cliente na análise das situações, e tecer considerações e comentários necessários ao clareamento das alternativas possíveis, sempre do ponto de vista e segundo os princípios e critérios da Psicologia.</li>
           </ul>
           <p>•	Limite utilização: 2 utilizações na vigência.</p>
@@ -396,19 +420,19 @@ sections:
           <p><strong>Coberturas</strong> - O serviço Funeral será composto pelos seguintes itens, de acordo com o limite contratado do afiliado;</p>
            <ul>
             <li><strong>Urna Mortuária</strong>: Urna padrão standard sextavada de madeira com ou sem visor, seis alças ou alças tipo varão, forrada em tecido, com babado e acabamento externo em verniz de alto brilho ou similar de acordo com a preferência da família do segurado dentro do limite contratado;</li>
-            <li><strong>Ornamentação da Urna</strong> - A IGS colocará a disposição da família, flores da época para o interior da urna, bem como vestirá o corpo se assim a família desejar;</li>
+            <li><strong>Ornamentação da Urna</strong> - O CBS – Clube Brasil Seguros colocará a disposição da família, flores da época para o interior da urna, bem como vestirá o corpo se assim a família desejar;</li>
             <li><strong>Preparação do Corpo</strong> - Banho, barba, maquiagem básica, vestimenta (ato de vestir), higienização (básica mais preparação e tamponamento) e ornamentação do corpo (com flores da estação). Tanatopraxia, quando necessário;</li>
-            <li><strong>Flores</strong> - A IGS colocará à disposição da família uma coroa de flores da época, juntamente com uma faixa de dizeres redigida pela família;</li>
+            <li><strong>Flores</strong> - O CBS – Clube Brasil Seguros colocará à disposição da família uma coroa de flores da época, juntamente com uma faixa de dizeres redigida pela família;</li>
             <li><strong>Véu</strong> - Véu simples para cobrir o corpo;</li>
             <li><strong>Paramentos</strong> - Jogo de paramentos, castiçais e velas que ficarão no local do velório, bem como os aparelhos de ozona de acordo com a preferência da família do segurado e limite contratado;</li>
-            <li><strong>Livro de Presença</strong> - A IGS providenciará uma mesa onde será colocado o livro de presença;</li>
+            <li><strong>Livro de Presença</strong> - O CBS – Clube Brasil Seguros providenciará uma mesa onde será colocado o livro de presença;</li>
             <li><strong>Capela ou sala velatória</strong> - Locação de capela ou sala velatória municipal ou com taxas equivalentes as municipais.</li>
           </ul> 
           <p><strong>Observações</strong>:</p>
           <ul>
             <li><strong>Religião ou credo</strong> - Todos os serviços mencionados acima serão realizados sempre respeitando as condições de religiosidade ou credo solicitado pela família;</li>
             <li><strong>Registro de Óbito</strong> - O registro do óbito em cartório deverá ser realizado pela família do afiliado;</li>
-            <li><strong>Locação de Jazigo</strong> - A locação do jazigo é de responsabilidade da família do afiliado. Caso a família não disponha de local para o sepultamento, a IGS se responsabilizará pela indicação de possível local e intermediará o serviço de locação.</li>
+            <li><strong>Locação de Jazigo</strong> - A locação do jazigo é de responsabilidade da família do afiliado. Caso a família não disponha de local para o sepultamento, o CBS – Clube Brasil Seguros se responsabilizará pela indicação de possível local e intermediará o serviço de locação.</li>
           </ul>
           <p><strong>Exclusões Gerais</strong>:</p>
           <ol>
@@ -423,6 +447,27 @@ sections:
             <li>Cruzes;</li>
             <li>Técnicas de preservação (tanatopraxia e embalsamento) terão seus custos cobertos apenas em caso de traslado aéreo do corpo, considerando essa despesa como parte dos valores da cobertura estipulados na tabela de cobertura.</li>
           </ol>
+
+      - contentTitle: Bike
+        contentImage: images/assistencias/assistencia-bike.jpg
+        image_alt: Mulher sorrindo e posando à frente de bicicleta em uma ciclofaixa
+        content: >-
+          Com o seguro de bicicleta do Clube Brasil Seguros é só você pedalar e relaxar. Conheça os eventos cobertos para você curtir o passeio numa boa!
+        fullContent: >-
+          <p><strong>Subtração da Bike</strong> - Cobre contra roubo, ou seja, quando há ameaça direta ou uso de violência ao segurado ou arrombamento do local onde a bicicleta estiver guardada;</p>
+          <p><strong>Danos à Bike</strong> - Cobre os danos causados por incêndio, queda, tentativa de roubo e, ainda, situações em que a bicicleta estiver sendo levada por um veículo transportador;</p>
+          <p><strong>Acidentes Pessoais Individual</strong> - Cobre as despesas em casos de morte acidental e invalidez permanente (total ou parcial), decorrente de acidente, além das despesas médicas, hospitalares e odontológicas.</p>
+
+      - contentTitle: Celular
+        contentImage: images/assistencias/assistencia-celular.jpg
+        image_alt: Casal sênior fazendo selfie durante viagem
+        content: >-
+          A proteção ideal para o que te conecta com o mundo: seu smartphone. Explore todo o potencial do seu aparelho sem medo de usar.
+
+        fullContent: >-
+          <p>Os <em>smartphones</em> oferecem um mundo de possibilidades, seja controlando câmeras de segurança, fechaduras digitais, lâmpadas e Tvs inteligentes, entre outros itens que podem ser comandados remotamente.</p>
+          <p>Com o seguro para celular do CBS – Clube Brasil Seguros, você não corre o risco de ficar sem o aparelho se algum imprevisto acontecer.</p>
+          <p>As coberturas garantem proteção contra danos e, se quiser, pode contratar a garantia internacional e deixar o seu smartphone seguro até no exterior.</p>
 
   - section_id: parceiros
     type: section_reviews
@@ -447,7 +492,7 @@ sections:
       - contentImage: images/parceiros/mbm.png
         image_alt: logotipo MBM
         link-index: mbm
-        
+
   - section_id: clientes
     type: section_reviews
     background: white

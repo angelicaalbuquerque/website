@@ -1,9 +1,9 @@
 {
     "base_font": "nunito-sans",
     "palette": "blue",
-    "favicon": "/images/favicon.ico",
+    "favicon": "images/logotipo/cbs_icon.ico",
     "header": {
-        "logo_img": "/images/cbs-4.svg",
+        "logo_img": "images/logotipo/cbs-logo-full.svg",
         "logo_img_alt": "Logo Clube Brasil Seguros -",
         "has_nav": true,
         "nav_links": [
@@ -13,8 +13,8 @@
                 "style": "link"
             },
             {
-                "label": "Assistências",
-                "url": "/#assistencias",
+                "label": "Coberturas e Assistências",
+                "url": "/#coberturas",
                 "style": "link"
             },
             {
@@ -43,7 +43,7 @@
         "sections": [
             {
                 "type": "footer_text",
-                "image": "images/logo-cbs-branco.png",
+                "image": "images/logotipo/CBS-white.svg",
                 "image_url": "/",
                 "image_alt": "Footer logo",
                 "content": "Clube Brasil Seguros"
@@ -52,7 +52,7 @@
                 "type": "footer_text",
                 "title": "Fale Conosco",
                 "content": 
-                "Avenida das Américas, 2480 - Bloco 2 / 308 - Barra da Tijuca, Rio de Janeiro (RJ)\n\nTelefone: (21) 3952-0100\n\nE-mail: atendimento@clubebrasilseguros.com"
+                "Avenida das Américas, 2480 - Bloco 2 / 308 - Barra da Tijuca, Rio de Janeiro (RJ)\n\nTelefone: (21) 3952-0100\n\nSAC: 0800 391 9388\n\nAssistência 24 horas: 0800 721 3875\n\nE-mail: atendimento@clubebrasilseguros.com"
             }
         ],
         "has_nav": true,
