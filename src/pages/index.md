@@ -23,40 +23,32 @@ sections:
         image: images/vantagens/vantagens-proteja-suas-conquistas.png
         image_alt: Casal se olhando com o título "Proteja suas conquistas" ao lado
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          Adquirir um seguro de vida é uma atitude para garantir a proteção de todo planejamento financeiro de sua família, em caso de alguma eventualidade – como doenças graves, invalidez ou falecimento. A proteção que o seguro proporciona, permite que as pessoas possam reestruturar seu capital e então, continuar preservando seu patrimônio e investir em algum objetivo familiar – como a formação educacional de seus filhos.
 
       - title: Contrate de forma rápida e segura
         image: images/vantagens/vantagens-contrate-rapido-seguro.png
         image_alt: Casal se olhando com o título "Contrate de forma rápida e segura" ao lado
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Respeitamos o seu tempo. Por isso, simplificamos nossos seguros online pra você entender e aderir de forma rápida e segura, contratando e levando em conta só o que combina com você.
 
       - title: Personalize seus planos
         image: images/vantagens/vantagens-personalize-seus-planos.png
         image_alt: Casal sentado tomando café e olhando a tela de um notebook com o título "Personalize seus planos" ao lado
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          É isso mesmo! você monta o seguro do seu jeito. É você mesmo quem define as coberturas e assistências que mais combinam com o que você precisa e já fica sabendo o preço que vai pagar por cada uma delas na hora. Com poucos cliques (ou toques, você escolhe), você já sai segurado pra aproveitar a vida muito mais seguro.
 
       - title: Concorra a R$5.000,00 mensais
         image: images/vantagens/vantagens-sorteio.png
         image_alt: Casal junto com os braços abertos se olhando com o título "Concorra a R$5.000 mensais" ao lado
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          Os sorteios mensais são apurados pela Loteria Federal do Brasil, o que garante idoneidade e transparência ao processo. A partir do primeiro pagamento, e sempre que as mensalidades estejam em dia, o cliente estará concorrendo periodicamente a prêmios em dinheiro.
 
   - section_id: coberturas
     type: section_reviews
     background: white
     title: Coberturas
     subtitle: >-
-      O Clube Brasil Seguros tem a melhor proteção para você, em todos os momentos da vida.
+      O Clube Brasil Seguros tem a melhor proteção para você, em todos os momentos da vida.&nbsp
     subtitleLinkText: Conheça aqui as coberturas!
     modalCoverageTitle: >-
       Coberturas
@@ -79,7 +71,7 @@ sections:
     background: white
     title: Assistências
     subtitle: >-
-      Saiba cada detalhe sobre cada assistência oferecida! Aproveite e também
+      Saiba cada detalhe sobre cada assistência oferecida! Aproveite e também&nbsp
     subtitleLinkText: >-
       conheça aqui os termos de uso.
     modalTermsOfUseTitle: >-
@@ -302,7 +294,7 @@ sections:
 
       - contentTitle: Médica Homem
         contentImage: images/assistencias/assistencia-saude-homem.jpg
-        image_alt: Médico e paciente sorrindo
+        image_alt: Médico e paciente vendo resultado de exame de raio-x
         content: >-
           Fone Doutor, exames preventivos, orientação fitness, assistência nutricional e orientação psicológica. Saiba tudo sobre a assistência médica exclusiva para o homem!
         fullContent: >-
@@ -331,7 +323,7 @@ sections:
 
       - contentTitle: Médica Mulher
         contentImage: images/assistencias/assistencia-saude-mulher.jpg
-        image_alt: Mulher paciente apertando a mão e olhando para o médico
+        image_alt: Mulher paciente olhando para a médica, que explica a análise de seu exame de raio-x
         content: >-
           Fone Doutor, exames preventivos, orientação fitness, assistência nutricional, orientação psicológica, coordenação de agenda, indicações médicas de especialistas e Courrier.
 
@@ -363,7 +355,7 @@ sections:
 
       - contentTitle: Odontológico
         contentImage: images/assistencias/assistencia-odontologica.jpg
-        image_alt: Dentista mostrando a uma paciente no consultório como escovar dentes
+        image_alt: Dentista iniciando tratamento em uma paciente jovem no consultório
         content: >-
           Atendimento odontológico emergencial, urgência estético-funcional e prestação de serviço em todo o Brasil. Conheça os eventos cobertos!
         fullContent: >-
@@ -450,7 +442,7 @@ sections:
 
       - contentTitle: Bike
         contentImage: images/assistencias/assistencia-bike.jpg
-        image_alt: Mulher sorrindo e posando à frente de bicicleta em uma ciclofaixa
+        image_alt: Casal jovem, formado por homem e mulher brancos, sorrindo ao andar de bicicleta
         content: >-
           Com o seguro de bicicleta do Clube Brasil Seguros é só você pedalar e relaxar. Conheça os eventos cobertos para você curtir o passeio numa boa!
         fullContent: >-
@@ -460,7 +452,7 @@ sections:
 
       - contentTitle: Celular
         contentImage: images/assistencias/assistencia-celular.jpg
-        image_alt: Casal sênior fazendo selfie durante viagem
+        image_alt: Casal interacial jovem olhando para o celular durante passeio na rua
         content: >-
           A proteção ideal para o que te conecta com o mundo: seu smartphone. Explore todo o potencial do seu aparelho sem medo de usar.
 
@@ -500,26 +492,23 @@ sections:
     subtitle: >-
       Veja os depoimentos de quem garantiu a tranquilidade para sua vida e ainda ganhou nosso sorteio mensal no valor de R$5.000,00!
     buttonCustomerTestimony: Ver mais depoimentos
-    reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    reviews: []
+      # fill in with customer testimonials
+      # - author:
+      #   avatar:
+      #   avatar_alt:
+      #   content: >-
+
+      # - author:
+      #   avatar:
+      #   avatar_alt:
+      #   content: >-
+
+      # - author:
+      #   avatar:
+      #   avatar_alt:
+      #   content: >-
+
   - section_id: call-to-action
     type: section_cta
     title: Você merece viver com tranquilidade

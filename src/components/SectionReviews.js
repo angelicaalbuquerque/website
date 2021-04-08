@@ -106,7 +106,7 @@ export default class SectionReviews extends React.Component {
                 {_.get(section, 'buttonCustomerTestimony', null) && (
                   <div className="button-customer-testimony">
                     <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="button">
-                          <span>Ver mais depoimentos</span>
+                          <span>Ver depoimentos</span>
                     </a>
                   </div>
                 )}
@@ -118,9 +118,7 @@ export default class SectionReviews extends React.Component {
                     {_.map(_.get(section, 'links', null), (link) => (
                     <div key={_.get(link, 'link-index', null)}>
                       {_.get(link, 'contentImage', null) && (
-                        <a href="/" rel="noreferrer">
                           <img className="parceiros-avatar" src={withPrefix(_.get(link, 'contentImage', null))} alt={_.get(link, 'image_alt', null)} />
-                        </a>
                       )}
                     </div>
                     ))}
